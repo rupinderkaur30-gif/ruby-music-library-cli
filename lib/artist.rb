@@ -1,6 +1,6 @@
 class Artist 
     extend Concerns::Findable
-    attr_accessor :name , :genre , :song
+    attr_accessor :name , :genre , :song , :music_library_controller
 
     @@all = []
 
